@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "my-663119550079-bucket"
+    bucket = "<unique_bucket_name>"
     key    = "remotedemo.tfstate"
     region = "us-east-1"
   }
